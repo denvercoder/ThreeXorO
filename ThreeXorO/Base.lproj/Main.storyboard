@@ -133,17 +133,42 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O has won" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bq4-rg-6lP">
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="3d6-4H-mJL"/>
+                                    <constraint firstAttribute="width" constant="312" id="eWI-TB-oEO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="47"/>
+                                <color key="textColor" red="0.05558470189744491" green="1" blue="0.10646834856274345" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgR-Of-msp">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="2Nc-cc-lsF"/>
+                                    <constraint firstAttribute="height" constant="30" id="2es-R7-aYT"/>
+                                </constraints>
+                                <state key="normal" title="Play Again?"/>
+                                <connections>
+                                    <action selector="again:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V6u-Pg-EXE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="bgR-Of-msp" firstAttribute="leading" secondItem="DP8-JR-e8M" secondAttribute="trailing" constant="32.5" id="0c0-IT-IcD"/>
                             <constraint firstItem="cFa-Je-QCs" firstAttribute="top" secondItem="jdx-Fa-Dff" secondAttribute="bottom" constant="8" id="1E0-Sf-eBe"/>
+                            <constraint firstItem="dZV-Co-d9O" firstAttribute="leading" secondItem="bgR-Of-msp" secondAttribute="trailing" constant="31.5" id="3ld-xr-ZGD"/>
                             <constraint firstItem="dZV-Co-d9O" firstAttribute="leading" secondItem="AhJ-1j-9fg" secondAttribute="trailing" constant="21.5" id="7U9-vh-wTb"/>
                             <constraint firstItem="L73-cG-sbc" firstAttribute="leading" secondItem="FQS-le-BYB" secondAttribute="trailing" constant="21.5" id="8Fa-sV-bD4"/>
+                            <constraint firstItem="bq4-rg-6lP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8e6-YK-1Ea"/>
                             <constraint firstItem="DP8-JR-e8M" firstAttribute="top" secondItem="3M8-rw-6Xg" secondAttribute="bottom" constant="49.5" id="8xZ-Uf-Kmq"/>
                             <constraint firstItem="DP8-JR-e8M" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9Uw-x0-OoZ"/>
                             <constraint firstItem="fn2-Nu-wDj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ba0-wZ-3uK"/>
+                            <constraint firstItem="bq4-rg-6lP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FYf-fR-cF0"/>
                             <constraint firstItem="jdx-Fa-Dff" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="HAU-xU-PQg"/>
                             <constraint firstItem="VwS-1H-KwC" firstAttribute="top" secondItem="DP8-JR-e8M" secondAttribute="bottom" constant="49.5" id="Mad-O6-zy2"/>
+                            <constraint firstItem="bgR-Of-msp" firstAttribute="top" secondItem="bq4-rg-6lP" secondAttribute="bottom" constant="8" id="MeW-1C-x3C"/>
                             <constraint firstItem="4gS-4n-TcN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OYS-9A-3rs"/>
                             <constraint firstItem="AhJ-1j-9fg" firstAttribute="leading" secondItem="DP8-JR-e8M" secondAttribute="trailing" constant="21.5" id="UAa-oK-U8S"/>
                             <constraint firstItem="FQS-le-BYB" firstAttribute="top" secondItem="AhJ-1j-9fg" secondAttribute="bottom" constant="49.5" id="VL2-Co-T6h"/>
@@ -168,11 +193,13 @@
                     </view>
                     <connections>
                         <outlet property="labelWhoFirst" destination="jdx-Fa-Dff" id="EAp-up-V1Z"/>
+                        <outlet property="playAgain" destination="bgR-Of-msp" id="L1W-Y2-liV"/>
+                        <outlet property="winnerLabel" destination="bq4-rg-6lP" id="Xdy-Pu-PXx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-80.799999999999997" y="-249.62518740629687"/>
+            <point key="canvasLocation" x="-1534" y="-245"/>
         </scene>
     </scenes>
     <resources>
