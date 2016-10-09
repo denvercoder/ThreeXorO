@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D73647631DA9F4A400D1FA21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73647621DA9F4A400D1FA21 /* AppDelegate.swift */; };
+		D73647651DA9F4A400D1FA21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73647641DA9F4A400D1FA21 /* ViewController.swift */; };
+		D73647681DA9F4A400D1FA21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73647661DA9F4A400D1FA21 /* Main.storyboard */; };
+		D736476A1DA9F4A400D1FA21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73647691DA9F4A400D1FA21 /* Assets.xcassets */; };
+		D736476D1DA9F4A400D1FA21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D736476B1DA9F4A400D1FA21 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D736475F1DA9F4A400D1FA21 /* ThreeXorO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeXorO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73647621DA9F4A400D1FA21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D73647641DA9F4A400D1FA21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D73647671DA9F4A400D1FA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D73647691DA9F4A400D1FA21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D736476C1DA9F4A400D1FA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D736476E1DA9F4A400D1FA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D736475C1DA9F4A400D1FA21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D73647561DA9F4A400D1FA21 = {
+			isa = PBXGroup;
+			children = (
+				D73647611DA9F4A400D1FA21 /* ThreeXorO */,
+				D73647601DA9F4A400D1FA21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D73647601DA9F4A400D1FA21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D736475F1DA9F4A400D1FA21 /* ThreeXorO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D73647611DA9F4A400D1FA21 /* ThreeXorO */ = {
+			isa = PBXGroup;
+			children = (
+				D73647621DA9F4A400D1FA21 /* AppDelegate.swift */,
+				D73647641DA9F4A400D1FA21 /* ViewController.swift */,
+				D73647661DA9F4A400D1FA21 /* Main.storyboard */,
+				D73647691DA9F4A400D1FA21 /* Assets.xcassets */,
+				D736476B1DA9F4A400D1FA21 /* LaunchScreen.storyboard */,
+				D736476E1DA9F4A400D1FA21 /* Info.plist */,
+			);
+			path = ThreeXorO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D736475E1DA9F4A400D1FA21 /* ThreeXorO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D73647711DA9F4A400D1FA21 /* Build configuration list for PBXNativeTarget "ThreeXorO" */;
+			buildPhases = (
+				D736475B1DA9F4A400D1FA21 /* Sources */,
+				D736475C1DA9F4A400D1FA21 /* Frameworks */,
+				D736475D1DA9F4A400D1FA21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeXorO;
+			productName = ThreeXorO;
+			productReference = D736475F1DA9F4A400D1FA21 /* ThreeXorO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D73647571DA9F4A400D1FA21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Denver Coder";
+				TargetAttributes = {
+					D736475E1DA9F4A400D1FA21 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 88UZ84VZEF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D736475A1DA9F4A400D1FA21 /* Build configuration list for PBXProject "ThreeXorO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D73647561DA9F4A400D1FA21;
+			productRefGroup = D73647601DA9F4A400D1FA21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D736475E1DA9F4A400D1FA21 /* ThreeXorO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D736475D1DA9F4A400D1FA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D736476D1DA9F4A400D1FA21 /* LaunchScreen.storyboard in Resources */,
+				D736476A1DA9F4A400D1FA21 /* Assets.xcassets in Resources */,
+				D73647681DA9F4A400D1FA21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D736475B1DA9F4A400D1FA21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73647651DA9F4A400D1FA21 /* ViewController.swift in Sources */,
+				D73647631DA9F4A400D1FA21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D73647661DA9F4A400D1FA21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D73647671DA9F4A400D1FA21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D736476B1DA9F4A400D1FA21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D736476C1DA9F4A400D1FA21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D736476F1DA9F4A400D1FA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D73647701DA9F4A400D1FA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D73647721DA9F4A400D1FA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 88UZ84VZEF;
+				INFOPLIST_FILE = ThreeXorO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.denvercoder.ThreeXorO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D73647731DA9F4A400D1FA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 88UZ84VZEF;
+				INFOPLIST_FILE = ThreeXorO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.denvercoder.ThreeXorO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D736475A1DA9F4A400D1FA21 /* Build configuration list for PBXProject "ThreeXorO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D736476F1DA9F4A400D1FA21 /* Debug */,
+				D73647701DA9F4A400D1FA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D73647711DA9F4A400D1FA21 /* Build configuration list for PBXNativeTarget "ThreeXorO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73647721DA9F4A400D1FA21 /* Debug */,
+				D73647731DA9F4A400D1FA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D73647571DA9F4A400D1FA21 /* Project object */;
+}
