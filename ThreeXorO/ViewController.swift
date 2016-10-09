@@ -10,6 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var labelWhoFirst: UILabel!
+    
+    @IBAction func whoGoesThere(_ sender: AnyObject) {
+        let firstMove = Int(arc4random_uniform(2))
+        
+        if (firstMove == 0){
+            labelWhoFirst.text = "X goes first"
+        }else {
+            labelWhoFirst.text = "O goes first"
+        }
+    }
     
     @IBAction func buttonPressed(_ sender: AnyObject) {
         print(sender.tag)
