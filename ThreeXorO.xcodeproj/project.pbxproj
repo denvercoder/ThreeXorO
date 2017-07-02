@@ -16,6 +16,18 @@
 		D736477C1DA9F84D00D1FA21 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = D73647791DA9F84D00D1FA21 /* cross.png */; };
 		D736477D1DA9F84D00D1FA21 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = D736477A1DA9F84D00D1FA21 /* nought.png */; };
 		D736477F1DAA007500D1FA21 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = D736477E1DAA007500D1FA21 /* splash.png */; };
+		D7CAFE4F1F08C434008D443B /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CAFE4E1F08C434008D443B /* GoogleMobileAds.framework */; };
+		D7CAFE521F08C445008D443B /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CAFE501F08C445008D443B /* EventKit.framework */; };
+		D7CAFE531F08C445008D443B /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CAFE511F08C445008D443B /* EventKitUI.framework */; };
+		D7CAFE551F08C44E008D443B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CAFE541F08C44E008D443B /* AVFoundation.framework */; };
+		D7CAFE571F08C45D008D443B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CAFE561F08C45D008D443B /* AdSupport.framework */; };
+		D7CAFE591F08C47D008D443B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CAFE581F08C47D008D443B /* AudioToolbox.framework */; };
+		D7CAFE5D1F08C48A008D443B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CAFE5A1F08C48A008D443B /* CoreGraphics.framework */; };
+		D7CAFE5E1F08C48A008D443B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CAFE5B1F08C48A008D443B /* CoreMedia.framework */; };
+		D7CAFE5F1F08C48A008D443B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CAFE5C1F08C48A008D443B /* CoreTelephony.framework */; };
+		D7CAFE611F08C495008D443B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CAFE601F08C495008D443B /* MessageUI.framework */; };
+		D7CAFE631F08C49C008D443B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CAFE621F08C49C008D443B /* StoreKit.framework */; };
+		D7CAFE651F08C4A3008D443B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CAFE641F08C4A3008D443B /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +42,18 @@
 		D73647791DA9F84D00D1FA21 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
 		D736477A1DA9F84D00D1FA21 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 		D736477E1DAA007500D1FA21 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		D7CAFE4E1F08C434008D443B /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = ThreeXorO/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		D7CAFE501F08C445008D443B /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		D7CAFE511F08C445008D443B /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		D7CAFE541F08C44E008D443B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D7CAFE561F08C45D008D443B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D7CAFE581F08C47D008D443B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D7CAFE5A1F08C48A008D443B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D7CAFE5B1F08C48A008D443B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D7CAFE5C1F08C48A008D443B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D7CAFE601F08C495008D443B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D7CAFE621F08C49C008D443B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D7CAFE641F08C4A3008D443B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7CAFE651F08C4A3008D443B /* SystemConfiguration.framework in Frameworks */,
+				D7CAFE631F08C49C008D443B /* StoreKit.framework in Frameworks */,
+				D7CAFE611F08C495008D443B /* MessageUI.framework in Frameworks */,
+				D7CAFE5D1F08C48A008D443B /* CoreGraphics.framework in Frameworks */,
+				D7CAFE5E1F08C48A008D443B /* CoreMedia.framework in Frameworks */,
+				D7CAFE5F1F08C48A008D443B /* CoreTelephony.framework in Frameworks */,
+				D7CAFE591F08C47D008D443B /* AudioToolbox.framework in Frameworks */,
+				D7CAFE571F08C45D008D443B /* AdSupport.framework in Frameworks */,
+				D7CAFE551F08C44E008D443B /* AVFoundation.framework in Frameworks */,
+				D7CAFE521F08C445008D443B /* EventKit.framework in Frameworks */,
+				D7CAFE531F08C445008D443B /* EventKitUI.framework in Frameworks */,
+				D7CAFE4F1F08C434008D443B /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +84,7 @@
 			children = (
 				D73647611DA9F4A400D1FA21 /* ThreeXorO */,
 				D73647601DA9F4A400D1FA21 /* Products */,
+				D7A5681E1F08BF70003D967E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +111,25 @@
 				D736476E1DA9F4A400D1FA21 /* Info.plist */,
 			);
 			path = ThreeXorO;
+			sourceTree = "<group>";
+		};
+		D7A5681E1F08BF70003D967E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7CAFE641F08C4A3008D443B /* SystemConfiguration.framework */,
+				D7CAFE621F08C49C008D443B /* StoreKit.framework */,
+				D7CAFE601F08C495008D443B /* MessageUI.framework */,
+				D7CAFE5A1F08C48A008D443B /* CoreGraphics.framework */,
+				D7CAFE5B1F08C48A008D443B /* CoreMedia.framework */,
+				D7CAFE5C1F08C48A008D443B /* CoreTelephony.framework */,
+				D7CAFE581F08C47D008D443B /* AudioToolbox.framework */,
+				D7CAFE561F08C45D008D443B /* AdSupport.framework */,
+				D7CAFE541F08C44E008D443B /* AVFoundation.framework */,
+				D7CAFE501F08C445008D443B /* EventKit.framework */,
+				D7CAFE511F08C445008D443B /* EventKitUI.framework */,
+				D7CAFE4E1F08C434008D443B /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +159,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Denver Coder";
 				TargetAttributes = {
 					D736475E1DA9F4A400D1FA21 = {
@@ -198,12 +254,14 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -248,12 +306,14 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -277,13 +337,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = 88UZ84VZEF;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThreeXorO",
+				);
 				INFOPLIST_FILE = ThreeXorO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.denvercoder.ThreeXorO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -291,13 +358,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = 88UZ84VZEF;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ThreeXorO",
+				);
 				INFOPLIST_FILE = ThreeXorO/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.denvercoder.ThreeXorO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -320,6 +394,7 @@
 				D73647731DA9F4A400D1FA21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

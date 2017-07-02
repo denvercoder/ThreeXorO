@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import GoogleMobileAds
+import AudioToolbox
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, GADBannerViewDelegate {
     
     @IBOutlet weak var winnerLabel: UILabel!
     @IBOutlet weak var playAgain: UIButton!
@@ -25,6 +27,10 @@ class ViewController: UIViewController {
     var gameState = [0,0,0,0,0,0,0,0,0] //0 = empty, 1 = Circle, 2 = X
     
     let winningCombo = [[0,1,2], [3,4,5], [6,7,8], [1,4,7], [0,3,6], [1,4,7], [2,5,8], [0,4,8], [2,4,6]]
+    
+    var adMobBannerView = GADBannerView()
+    
+    let ADMOB_BANNER_UNIT_ID = "ca-app-pub-8033231278137446/5846599612"
     
     @IBAction func xGoesFirst(_ sender: AnyObject) {
         xFirstButton.backgroundColor = UIColor.green
@@ -115,6 +121,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        initAdMobBanner()
         winnerLabel.isHidden = true
         playAgain.isHidden = true
         
@@ -127,6 +134,53 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    // MARK: -  ADMOB BANNER
+    func initAdMobBanner() {
+        
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            // iPhone
+            adMobBannerView.adSize =  GADAdSizeFromCGSize(CGSize(width: 320, height: 50))
+            adMobBannerView.frame = CGRect(x: 0, y: view.frame.size.height, width: 320, height: 50)
+        } else  {
+            // iPad
+            adMobBannerView.adSize =  GADAdSizeFromCGSize(CGSize(width: 468, height: 60))
+            adMobBannerView.frame = CGRect(x: 0, y: view.frame.size.height, width: 468, height: 60)
+        }
+        
+        adMobBannerView.adUnitID = ADMOB_BANNER_UNIT_ID
+        adMobBannerView.rootViewController = self
+        adMobBannerView.delegate = self
+        view.addSubview(adMobBannerView)
+        
+        let request = GADRequest()
+        adMobBannerView.load(request)
+    }
+    
+    
+    // Hide the banner
+    func hideBanner(_ banner: UIView) {
+        UIView.beginAnimations("hideBanner", context: nil)
+        banner.frame = CGRect(x: view.frame.size.width/2 - banner.frame.size.width/2, y: view.frame.size.height - banner.frame.size.height, width: banner.frame.size.width, height: banner.frame.size.height)
+        UIView.commitAnimations()
+        banner.isHidden = true
+    }
+    
+    // Show the banner
+    func showBanner(_ banner: UIView) {
+        UIView.beginAnimations("showBanner", context: nil)
+        banner.frame = CGRect(x: view.frame.size.width/2 - banner.frame.size.width/2, y: view.frame.size.height - banner.frame.size.height, width: banner.frame.size.width, height: banner.frame.size.height)
+        UIView.commitAnimations()
+        banner.isHidden = false
+    }
+    
+    // AdMob banner available
+    func adViewDidReceiveAd(_ view: GADBannerView) {
+        showBanner(adMobBannerView)
+    }
+    
+    // NO AdMob banner available
+    func adView(_ view: GADBannerView, didFailToReceiveAdWithError error: GADRequestError) {
+        hideBanner(adMobBannerView)
+    }
 }
 
